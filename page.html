@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mon Site Web</title>
+<style>
+    /* Styles CSS pour la mise en forme */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+    }
+    nav {
+        background-color: #444;
+        overflow: hidden;
+    }
+    nav a {
+        float: left;
+        display: block;
+        color: #fff;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+    }
+    nav a:hover {
+        background-color: #ddd;
+        color: #333;
+    }
+    section {
+        padding: 20px;
+    }
+    footer {
+        background-color: #f3eeee;
+        color: #ffffff;
+        text-align: center;
+        padding: 10px 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <h1>Mon Site Web</h1>
+    </header>
+    <nav>
+        <a href="#accueil">Accueil</a>
+        <a href="#a_propos">À propos</a>
+        <a href="#travail">Travail</a>
+        <a href="#cv">CV</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="accueil">
+        <h2>Accueil</h2>
+       <img src="Image2.jpg" width="700" height="400">
+       <p><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis aspernatur quibusdam temporibus, fugit possimus aut autem labore. Sed nihil 
+        aperiam porro velit dolore, voluptas minus. Laborum molestiae tempore accusantium earum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quisquam harum totam sit aut itaque eum ut, facere quis obcaecati. 
+        Laborum adipisci, molestiae quae dicta amet ab dolore reprehenderit doloribus!</i></p>
+        <!-- Contenu de la section Accueil -->
+    </section>
+    <section id="a_propos">
+        <h2>À propos</h2>
+        <p><i>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, voluptatibus! Culpa quia exercitationem corporis odit nulla dolorem maiores, 
+          quidem laborum vel quasi officia illo, veritatis possimus corrupti laboriosam sit dolor. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit iste possimus rem sequi assumenda natus quod deleniti placeat consectetur. 
+          Ad omnis praesentium sed iusto atque ullam laudantium recusandae fugit quibusdam!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, quidem deleniti illo corrupti, sed, temporibus officia praesentium sapiente
+         necessitatibus accusamus veniam impedit voluptatibus nisi adipisci qui omnis doloribus nam magnam.</i>
+        </p>
+        <!-- Formulaire ou contenu de la section À propos -->
+    </section>
+    <section id="travail">
+        <h2>Travail</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/i6_BARnia94?si=50OtEOmkZxZMEHle" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <p><i>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, adipisci fugiat? Quis error animi eos dolorem corrupti nihil numquam sunt in, 
+            et qui aperiam incidunt rerum at ratione impedit natus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates possimus laudantium magnam reiciendis, enim ut harum repellat perferendis 
+            consequatur rerum dolor maiores odio magni inventore non iure minus eveniet temporibus.</i></p>
+
+        <!-- Formulaire ou contenu de la section Travail -->
+    </section>
+    <section id="cv">
+        <h2>CV</h2>
+        <form action="traitement_cv.php" method="post">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+            
+            <label for="prenom">Prénom :</label>
+            <input type="text" id="prenom" name="prenom" required>
+            
+            <label for="adresse">Adresse :</label>
+            <input type="text" id="adresse" name="adresse">
+            
+            <label for="telephone">Téléphone :</label>
+            <input type="text" id="telephone" name="telephone">
+            
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="formation">Formation :</label>
+            <textarea id="formation" name="formation" rows="4"></textarea>
+            
+            <label for="experience">Expérience professionnelle :</label>
+            <textarea id="experience" name="experience" rows="4"></textarea>
+            
+            <input type="submit" value="Envoyer">
+        </form>
+        <style>
+            /* Styles CSS pour la mise en forme */
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+            }
+            label {
+                display: block;
+                margin-bottom: 5px;
+            }
+            input[type="text"],
+            input[type="email"],
+            textarea {
+                width: 100%;
+                padding: 8px;
+                margin-bottom: 10px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+            input[type="submit"] {
+                background-color: #4CAF50;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+            input[type="submit"]:hover {
+                background-color: #45a049;
+            }
+        </style>
+    <!-- Formulaire ou contenu de la section CV -->
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <!-- Contact WhatsApp -->
+    <p>Contactez-nous sur WhatsApp : +221777821718</p>
+    <a href="+221777821718" target="_blank">WhatsApp</a>
+    
+    <!-- Contact Gmail -->
+    <p>Contactez-moi par email : :elreylmg@gmail.com</p>
+    <a href="mailto:misaelgraceloukaka@gmail.com">Envoyer un email</a>
+</body>
+        <!-- Formulaire ou contenu de la section Contact -->
+    </section>
+    <footer>
+        <p>&copy; 2024 Mon Site Web. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
